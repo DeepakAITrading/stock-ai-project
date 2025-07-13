@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultsContainer = document.getElementById('resultsContainer');
 
     // IMPORTANT: Replace this with your actual Render API URL
-    const API_BASE_URL = 'https://stock-ai-backend-q9qw.onrender.com';
+    const API_BASE_URL = 'https://stock-ai-backend-q9qw.onrender.com/';
 
     fetchButton.addEventListener('click', () => {
         const symbol = symbolInput.value.toUpperCase();
